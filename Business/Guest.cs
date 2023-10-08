@@ -20,7 +20,7 @@ namespace Phumla_Kamnandi_Hotel.Business
         private String address;
         private String city;
         private String postalCode;
-        private int generateID = 1000;
+        private int generateID = 10000;
 
         #endregion
 

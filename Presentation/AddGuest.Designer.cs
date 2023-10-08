@@ -32,18 +32,18 @@
             id = new Label();
             bookbtn = new Button();
             backbtn = new Button();
-            dateTimePicker1 = new DateTimePicker();
-            textBox2 = new TextBox();
-            textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            textBox1 = new TextBox();
-            label8 = new Label();
-            phone = new Label();
-            label7 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
+            dateTimePicker = new DateTimePicker();
+            phoneText = new TextBox();
+            pcText = new TextBox();
+            cityText = new TextBox();
+            addressText = new TextBox();
+            nameText = new TextBox();
+            addressLabel = new Label();
+            phoneLabel = new Label();
+            pcLabel = new Label();
+            cityLabel = new Label();
+            dateLabel = new Label();
+            nameLabel = new Label();
             label1 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -53,18 +53,18 @@
             groupBox1.Controls.Add(id);
             groupBox1.Controls.Add(bookbtn);
             groupBox1.Controls.Add(backbtn);
-            groupBox1.Controls.Add(dateTimePicker1);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(textBox5);
-            groupBox1.Controls.Add(textBox4);
-            groupBox1.Controls.Add(textBox3);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(phone);
-            groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(dateTimePicker);
+            groupBox1.Controls.Add(phoneText);
+            groupBox1.Controls.Add(pcText);
+            groupBox1.Controls.Add(cityText);
+            groupBox1.Controls.Add(addressText);
+            groupBox1.Controls.Add(nameText);
+            groupBox1.Controls.Add(addressLabel);
+            groupBox1.Controls.Add(phoneLabel);
+            groupBox1.Controls.Add(pcLabel);
+            groupBox1.Controls.Add(cityLabel);
+            groupBox1.Controls.Add(dateLabel);
+            groupBox1.Controls.Add(nameLabel);
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
@@ -102,102 +102,102 @@
             backbtn.UseVisualStyleBackColor = true;
             backbtn.Click += button1_Click;
             // 
-            // dateTimePicker1
+            // dateTimePicker
             // 
-            dateTimePicker1.Location = new Point(277, 187);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(390, 31);
-            dateTimePicker1.TabIndex = 2;
+            dateTimePicker.Location = new Point(277, 187);
+            dateTimePicker.Name = "dateTimePicker";
+            dateTimePicker.Size = new Size(390, 31);
+            dateTimePicker.TabIndex = 2;
             // 
-            // textBox2
+            // phoneText
             // 
-            textBox2.Location = new Point(277, 419);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(390, 31);
-            textBox2.TabIndex = 1;
+            phoneText.Location = new Point(277, 419);
+            phoneText.Name = "phoneText";
+            phoneText.Size = new Size(390, 31);
+            phoneText.TabIndex = 1;
             // 
-            // textBox5
+            // pcText
             // 
-            textBox5.Location = new Point(277, 353);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(390, 31);
-            textBox5.TabIndex = 1;
+            pcText.Location = new Point(277, 353);
+            pcText.Name = "pcText";
+            pcText.Size = new Size(390, 31);
+            pcText.TabIndex = 1;
             // 
-            // textBox4
+            // cityText
             // 
-            textBox4.Location = new Point(277, 305);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(390, 31);
-            textBox4.TabIndex = 1;
+            cityText.Location = new Point(277, 305);
+            cityText.Name = "cityText";
+            cityText.Size = new Size(390, 31);
+            cityText.TabIndex = 1;
             // 
-            // textBox3
+            // addressText
             // 
-            textBox3.Location = new Point(277, 253);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(390, 31);
-            textBox3.TabIndex = 1;
+            addressText.Location = new Point(277, 253);
+            addressText.Name = "addressText";
+            addressText.Size = new Size(390, 31);
+            addressText.TabIndex = 1;
             // 
-            // textBox1
+            // nameText
             // 
-            textBox1.Location = new Point(277, 129);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(390, 31);
-            textBox1.TabIndex = 1;
+            nameText.Location = new Point(277, 129);
+            nameText.Name = "nameText";
+            nameText.Size = new Size(390, 31);
+            nameText.TabIndex = 1;
             // 
-            // label8
+            // addressLabel
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(45, 256);
-            label8.Name = "label8";
-            label8.Size = new Size(77, 25);
-            label8.TabIndex = 0;
-            label8.Text = "Address";
-            label8.Click += label8_Click;
+            addressLabel.AutoSize = true;
+            addressLabel.Location = new Point(45, 256);
+            addressLabel.Name = "addressLabel";
+            addressLabel.Size = new Size(77, 25);
+            addressLabel.TabIndex = 0;
+            addressLabel.Text = "Address";
+            addressLabel.Click += label8_Click;
             // 
-            // phone
+            // phoneLabel
             // 
-            phone.AutoSize = true;
-            phone.Location = new Point(45, 419);
-            phone.Name = "phone";
-            phone.Size = new Size(62, 25);
-            phone.TabIndex = 0;
-            phone.Text = "Phone";
+            phoneLabel.AutoSize = true;
+            phoneLabel.Location = new Point(45, 419);
+            phoneLabel.Name = "phoneLabel";
+            phoneLabel.Size = new Size(62, 25);
+            phoneLabel.TabIndex = 0;
+            phoneLabel.Text = "Phone";
             // 
-            // label7
+            // pcLabel
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(45, 356);
-            label7.Name = "label7";
-            label7.Size = new Size(103, 25);
-            label7.TabIndex = 0;
-            label7.Text = "Postal code";
+            pcLabel.AutoSize = true;
+            pcLabel.Location = new Point(45, 356);
+            pcLabel.Name = "pcLabel";
+            pcLabel.Size = new Size(103, 25);
+            pcLabel.TabIndex = 0;
+            pcLabel.Text = "Postal code";
             // 
-            // label4
+            // cityLabel
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(45, 305);
-            label4.Name = "label4";
-            label4.Size = new Size(42, 25);
-            label4.TabIndex = 0;
-            label4.Text = "City";
+            cityLabel.AutoSize = true;
+            cityLabel.Location = new Point(45, 305);
+            cityLabel.Name = "cityLabel";
+            cityLabel.Size = new Size(42, 25);
+            cityLabel.TabIndex = 0;
+            cityLabel.Text = "City";
             // 
-            // label3
+            // dateLabel
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(45, 192);
-            label3.Name = "label3";
-            label3.Size = new Size(49, 25);
-            label3.TabIndex = 0;
-            label3.Text = "Date";
+            dateLabel.AutoSize = true;
+            dateLabel.Location = new Point(45, 192);
+            dateLabel.Name = "dateLabel";
+            dateLabel.Size = new Size(49, 25);
+            dateLabel.TabIndex = 0;
+            dateLabel.Text = "Date";
             // 
-            // label2
+            // nameLabel
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(45, 135);
-            label2.Name = "label2";
-            label2.Size = new Size(59, 25);
-            label2.TabIndex = 0;
-            label2.Text = "Name";
+            nameLabel.AutoSize = true;
+            nameLabel.Location = new Point(45, 135);
+            nameLabel.Name = "nameLabel";
+            nameLabel.Size = new Size(59, 25);
+            nameLabel.TabIndex = 0;
+            nameLabel.Text = "Name";
             // 
             // label1
             // 
@@ -224,21 +224,21 @@
         #endregion
 
         private GroupBox groupBox1;
-        private Label label8;
-        private Label label7;
-        private Label label4;
-        private Label label3;
-        private Label label2;
+        private Label addressLabel;
+        private Label pcLabel;
+        private Label cityLabel;
+        private Label dateLabel;
+        private Label nameLabel;
         private Label label1;
         private Button bookbtn;
         private Button backbtn;
-        private DateTimePicker dateTimePicker1;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label phone;
+        private DateTimePicker dateTimePicker;
+        private TextBox pcText;
+        private TextBox cityText;
+        private TextBox addressText;
+        private TextBox nameText;
+        private TextBox phoneText;
+        private Label phoneLabel;
         private Label id;
     }
 }
