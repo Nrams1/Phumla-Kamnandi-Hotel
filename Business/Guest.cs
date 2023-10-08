@@ -13,7 +13,7 @@ namespace Phumla_Kamnandi_Hotel.Business
     {
 
         #region Data Members 
-        private String customerId;
+        private String guestId;
         private String name;
         private String date;
         private String phone;
@@ -26,9 +26,9 @@ namespace Phumla_Kamnandi_Hotel.Business
 
         #region Property Methods
         // Properties to store guest information
-        public String CustomerID {
-                get { return customerId; }
-            set { customerId = value; }
+        public String GuestID {
+                get { return guestId; }
+            set { guestId = value; }
 
            }
         public String Name
@@ -79,7 +79,7 @@ namespace Phumla_Kamnandi_Hotel.Business
         // Default constutor , to create a Guest object
         public Guest(){
             generateID++;
-            customerId = generateID + "";
+            guestId = generateID + "";
         }
         #endregion
      
